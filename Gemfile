@@ -30,7 +30,7 @@ gem 'jquery-rails'
 gem 'haml'
 
 # To use ruby-tmdb gem
-# gem 'ruby-tmdb'
+gem 'ruby-tmdb'
 
 # use Ruby debugger
 # rails server --debugger
