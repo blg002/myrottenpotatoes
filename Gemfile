@@ -29,6 +29,9 @@ gem 'jquery-rails'
 # use Haml for templates
 gem 'haml'
 
+# To use ruby-tmdb gem
+# gem 'ruby-tmdb'
+
 # use Ruby debugger
 # rails server --debugger
 group :development, :test do
@@ -37,6 +40,8 @@ end
 
 # bundle install --without production
 group :test, :development do
+  gem 'rspec-rails'
+  gem 'ZenTest'
   gem 'cucumber-rails'
   gem 'cucumber-rails-training-wheels' # some pre-fabbed step definitions  
   gem 'database_cleaner' # to clear Cucumber's test database between runs
